@@ -1,6 +1,7 @@
-from dataclasses import dataclass
+from dataclasses import dataclass #import dataclass
 @dataclass
-class student:
+class student:#creat class student
+    #variables
     name: str
     college_id: int
     gpa:float
@@ -8,7 +9,7 @@ class student:
     def __str__(self):
         return f'Name {self.name}. GPA:{self.gpa}'
 
-def main():
+def main():# add student id anf gpa
     filmon=student('filmon','12345','3.7')
     print(filmon)
     dave=student('dave','09876','3.0')
